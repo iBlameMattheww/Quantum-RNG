@@ -4,3 +4,9 @@
 *.stl linguist-detectable=false
 *.step linguist-detectable=false
 *.HEIC linguist-detectable=false
+*.c linguist-language=C
+*.py linguist-language=Python
+*.md linguist-language=Markdown
+*.stl linguist-detectable=false
+*.step linguist-detectable=false
+*.HEIC linguist-detectable=false

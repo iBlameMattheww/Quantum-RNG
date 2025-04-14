@@ -4,4 +4,5 @@
 *.stl linguist-detectable=false
 *.step linguist-detectable=false
 *.HEIC linguist-detectable=false
+*.jpg linguist-detectable=false
 

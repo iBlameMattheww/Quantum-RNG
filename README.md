@@ -32,7 +32,7 @@ This project captures that analog noise, amplifies it, and then digitizes it to 
   I didn’t have time to source ideal high-bandwidth op-amps or ultra-fast comparators. I used what I had — and still got a working, feasible prototype.
 
 - **Optional 3D Enclosure + EMI Shield**  
-  I also modeled a basic 3D-printed enclosure for the project and lined it with a copper EMI shield to help reduce electromagnetic interference and noise pickup from the environment. You don’t need the enclosure to run the project, but the CAD files and details are available in `/enclosure_cad/` if anyone wants to use or remix it.
+  I also modeled a basic 3D-printed enclosure for the project and lined it with a copper EMI shield and grounded it to help reduce electromagnetic interference and noise pickup from the environment. You don’t need the enclosure to run the project, but the CAD files and details are available in `/enclosure_cad/` if anyone wants to use or remix it.
 
 ---
 
@@ -42,8 +42,8 @@ This project captures that analog noise, amplifies it, and then digitizes it to 
 |---------------------|-----------------------------|
 | Raspberry Pi Pico   | or Pico W                   |
 | Photodiode          | BPW34 (or equivalent)       |
-| Op-Amp              | LM324 (gain ~2000x)         |
-| Comparator          | LM339 or LT1011             |
+| Op-Amp              | LM4562NA (gain ~2001x)      |
+| Comparator          | LM393 or LT1011             |
 | Resistors & Caps    | For gain tuning & filtering |
 | USB Cable           | Data + power                |
 | Breadboard & Wires  | For easy prototyping        |
@@ -59,6 +59,9 @@ See `/circuit_diagram/QRNG_Schematic.png`
 Includes LTSpice simulation output
 
 ---
+### Why Green LEDs?
+
+We used green LEDs in close proximity to the photodiode to emit photons and stimulate shot noise. Green was specifically chosen due to its photon energy falling within the BPW34 photodiode's peak sensitivity range. While blue LEDs have higher photon energy, their wavelength exceeds the spectral response of the BPW34, making green the most effective choice for this configuration.
 
 ## How It Works
 

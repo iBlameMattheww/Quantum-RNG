@@ -7,5 +7,8 @@
 *.jpg linguist-detectable=false
 *.png linguist-detectable=false
 *.1 linguist-detectable=false
-
+*.txt linguist-detectable=false
+*.prt linguist-detectable=false
+*.stp linguist-detectable=false
+*.log linguist-detectable=false
 

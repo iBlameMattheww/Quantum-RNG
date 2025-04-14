@@ -61,7 +61,7 @@ Includes LTSpice simulation output
 ---
 ### Why Green LEDs?
 
-We used green LEDs in close proximity to the photodiode to emit photons and stimulate shot noise. Green was specifically chosen due to its photon energy falling within the BPW34 photodiode's peak sensitivity range. While blue LEDs have higher photon energy, their wavelength exceeds the spectral response of the BPW34, making green the most effective choice for this configuration.
+I used green LEDs in close proximity to the photodiode to emit photons and stimulate shot noise. Green was specifically chosen due to its photon energy falling within the BPW34 photodiode's peak sensitivity range. While blue LEDs have higher photon energy, their wavelength exceeds the spectral response of the BPW34, making green the most effective choice for this configuration.
 
 ## How It Works
 

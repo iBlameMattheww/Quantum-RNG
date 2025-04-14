@@ -55,7 +55,7 @@ Sampling Rate: 5–15kHz (empirically tested)
 
 ## Circuit Diagram
 
-See `/circuit_diagram/QRNG Schematic.png`  
+See `/circuit_diagram/QRNG_Schematic.png`  
 Includes LTSpice simulation output
 
 ---

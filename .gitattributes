@@ -1,8 +1,9 @@
 *.c linguist-language=C
 *.py linguist-language=Python
-*.md linguist-language=Markdown
+*.md linguist-language=false
 *.stl linguist-detectable=false
 *.step linguist-detectable=false
 *.HEIC linguist-detectable=false
 *.jpg linguist-detectable=false
+*.png linguist-detectable=false
 

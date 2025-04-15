@@ -164,7 +164,7 @@ I’d love to hear how others would refine this or take it further.
 ## Connect With Me!
 
 Hi, I'm Matthew — currently studying Electrical Engineering and Computer Science (yes, both), with an interest in embedded systems, hardware, and machine learning.  
-You can find me on [LinkedIn](https://www.linkedin.com/in/matthewobrien-eng) pretending to be more professional than I actually am.
+You can find and connect with me on [LinkedIn](https://www.linkedin.com/in/matthewobrien-eng) pretending to be more professional than I actually am.
 
 ## 
 

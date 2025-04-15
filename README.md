@@ -161,6 +161,13 @@ I’d love to hear how others would refine this or take it further.
 
 ---
 
+## Connect With Me!
+
+I'm Matthew — currently studying Electrical Engineering and Computer Science (yes, both), with an interest in embedded systems, hardware, and machine learning.  
+You can find me on [LinkedIn](https://www.linkedin.com/in/matthewobrien-eng) pretending to be more professional than I actually am.
+
+---
+
 ## Keywords
 
 quantum random number generator, QRNG, shot noise, photodiode, pico, microcontroller, randomness, entropy, PRNG, numpy, raspberry pi hardware project, electrical engineering, true randomness, op-amp noise, propagation delay, comparator, diy rng

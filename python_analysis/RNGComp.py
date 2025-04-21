@@ -68,7 +68,7 @@ while i < sampleMax:
     # progress bar
     percentage = i / sampleMax
     bar = '█' * int(30 * percentage) + '-' * (30 - int(30 * percentage))
-    sys.stdout.write(f"\r[{bar}] {percentage * 100}% QRNG sampled")
+    sys.stdout.write(f"\r[{bar}] {percentage * 100:.0f}% QRNG sampled")
     sys.stdout.flush()
 
 end = time.time()
